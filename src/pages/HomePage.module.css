@@ -1,0 +1,106 @@
+.starting {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profileBtn {
+  color: blue;
+  background: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #6b21a8, #b84dff);
+  color: white;
+  border-radius: 16px;
+  margin: 3rem auto;
+  max-width: 1200px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.heroContent {
+  max-width: 50%;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+}
+
+.heroContent p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primaryBtn {
+  padding: 0.9rem 2.2rem;
+  background: white;
+  color: #6b21a8;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+}
+
+.secondaryBtn {
+  padding: 0.9rem 2.2rem;
+  background: transparent;
+  color: white;
+  font-weight: 700;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.secondaryBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+.heroVisual img {
+  width: 500px;
+  height: 500px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s;
+}
+
+.heroVisual img:hover {
+  transform: scale(1.05);
+}

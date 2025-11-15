@@ -1,0 +1,74 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  background-color: #38015c;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin: 0 100px;
+}
+
+.header ul {
+  list-style: none;
+  margin: 50px 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin: 0 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.loginBtn {
+  margin-right: 77px;
+  padding: 0.5rem 1.8rem;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.loginBtn:hover {
+  background: white;
+  color: #38015c;
+  transform: translateY(-2px);
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.header button {
+  font: inherit;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.header a:hover {
+  color: #c291e2;
+}
+
+.header button:hover {
+  background-color: #c291e2;
+  color: #38015c;
+}
